@@ -3,3 +3,4 @@ lida[transformers]
 torch
 streamlit
 python-dotenv
+openai
