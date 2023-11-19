@@ -19,7 +19,7 @@ def base64_to_image(base64_string):
 
 
 lida = Manager(text_gen = llm("openai"))
-textgen_config = TextGenerationConfig(n=1, temperature=0.5, model="gpt-3.5-turbo-0301", use_cache=True)
+textgen_config = TextGenerationConfig(n=1, temperature=0.5, model="gpt-3.5-turbo", use_cache=True)
 
 menu = st.sidebar.selectbox("Choose an Option", ["Summarize", "Question based Graph"])
 
